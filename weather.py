@@ -3,7 +3,7 @@ import requests
 
 app=Flask(__name__)
 
-API_KEY="04a4905d2fb5bcf331e33154a61cade9"
+API_KEY="    "
 
 @app.route("/",methods=['GET','POST'])
 def weather():
